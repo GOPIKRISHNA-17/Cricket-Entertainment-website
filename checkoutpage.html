@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkoutpage.css">
+</head>
+<body>
+    
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+ 
+
+  
+
+
+
+
+<div class="container">
+
+  <form action="">  
+ 
+    <h4 class="titleh4">ORDER SUMMARY</h4>
+   
+    Reference No : 1000001999987
+    <br>
+    Description : Make payment
+    <br>
+    
+    Full-Name : &nbsp;  <span id="userName"></span>
+    <br>
+  
+
+   
+    
+  <br>
+  
+  
+  Total Amount: <span id="totalAmount"></span>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+    <h5 class="titleh5">PLEASE FILL OUT BILLING ADDRESS AND PAYMENT</h5>
+  
+  <br><br>
+  
+  </form>
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+    <form action="sucess.html" method="post">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+                *<span style="color: red;">Indicates a required field</span> 
+                <div class="inputBox">
+                    <span>full name : *</span>
+                    <input type="text" placeholder="Your name" required>
+                    <span class="error" id="nameError"></span>
+                </div>
+                <div class="inputBox">
+                    <span>email : * </span>
+                    <input type="email" placeholder="example@example.com" required>
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="inputBox">
+                    <span>address : *</span>
+                    <input type="text" placeholder="Address" required>
+                </div>
+                <div class="inputBox">
+                    <span>city : *</span>
+                    <input type="text" placeholder="Colombo" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>state :</span>
+                        <input type="text" placeholder="Srilaka" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input type="text" placeholder="123 456" required pattern="[0-5]{6}">
+                    </div>
+                </div>
+
+            </div>
+
+          <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="images/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Name on card : *</span>
+                    <input type="text" placeholder="Mr.name" required>
+                </div>
+                <div class="inputBox">
+                    <span>credit card number : *</span>
+                    <input type="number" placeholder="1111-2222-3333-4444" required>
+                </div>
+                <div class="inputBox">
+                    <span>exp month : *</span>
+                    <input type="text" placeholder="january" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>exp year : *</span>
+                        <input type="number" placeholder="2023" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV : *</span>
+                        <input type="text" placeholder="XXX" required>
+                      </div>
+                    </div>
+    
+               </div>
+        
+            </div>
+       <br>
+            <input type="submit" value="checkout" class="submit-btn">
+    
+        </form>  
+    
+
+
+
+
+
+        <script src="checkoutpage.js"></script>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

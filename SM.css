@@ -1,0 +1,159 @@
+/*body css*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+  }
+  .bg {
+	/* The image used */
+	  background-image: url("image/BG.jpg");
+	  background-size: cover;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+  }
+
+ 
+
+  
+  /*navbar css*/
+  .navBar{
+	height:50px;
+	background-color:rgb(57, 54, 52);
+	position:fixed;
+	top:0;
+	left:0;
+	overflow:hidden;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	
+
+
+
+}
+
+.navBar a{
+	float: left;
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:14px 16px;
+	
+	
+	
+
+}
+
+.navBar a:hover{
+  background-color: #FF8A8A;
+  color: black;
+  
+}  
+.navBar .active{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+ #logo{
+	position: relative;
+	left: 250px;
+ }
+
+  /*for heading(sitemap) css*/
+.heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 2;
+	padding: 45px;
+	height: 50px;
+}
+
+.headText{
+  text-align:center;
+  font-size:40px;
+  color:white;
+}
+
+  /*svg css*/
+  svg {
+	display: block;
+	margin: 20px auto;
+  }
+ 
+  
+  /*line css in svg*/
+  
+  .link {
+	fill: none;
+	stroke:rgba(20, 4, 4, 0.783);
+	stroke-width: 5px;
+  }
+  .text {
+	  font-family: Arial, sans-serif;
+	  fill: rgba(17, 17, 17, 0.884);
+	  font-size:14px;
+  }
+  .circle {
+	  stroke:rgba(214, 233, 145, 0.961);
+	  stroke-linecap: butt;
+	  stroke-width: 5px;
+  }
+  /*link effect css*/
+  a:link circle {
+	  stroke:rgba(214, 233, 145, 0.961);
+	  stroke-width: 5;
+  }
+  a:visited circle {
+	  stroke:rgba(214, 233, 145, 0.961);
+	  stroke-width: 5;
+  }
+  a:hover circle {
+	  stroke:#f47106;
+	  stroke-width: 5;
+  }
+  a:active circle {
+	  stroke:#c4f905;
+	  stroke-width:5;
+  }
+  a:link text {
+	  fill: #050a50;
+  }
+  a:visited text {
+	  fill: rgba(17, 17, 17, 0.884);;
+  }
+  a:hover text {
+	  fill: #f47106;
+  }
+  a:active text {
+	  fill: #c4f905;
+  }
+  .page{
+	  position: fixed; 
+	  top:360px; 
+	  right: 20px;
+  }
+  .btn button{
+	padding: 10px;
+	display: inline-block;
+	margin-left: 200px ;
+	border-radius: 5px;
+	background-color: palegoldenrod;
+	font-family:'Times New Roman', Times, serif;
+	font-weight: bold;
+	text-decoration: none;
+	
+   
+	
+}
+#btn3{
+	padding: 1%;
+	text-align: center;
+	margin-left: 50%;
+}

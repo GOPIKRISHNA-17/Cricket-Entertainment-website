@@ -1,0 +1,47 @@
+.navBar{
+  height:50px;
+  background-color:rgb(57, 54, 52);
+  position:fixed;
+  top:0;
+  left:0;
+  overflow:hidden;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.navBar a{
+  float: left;
+  text-decoration:none;
+  color:white;
+  display:block;
+  padding:14px 16px;
+
+}
+
+.navBar a:hover{
+  background-color: #FF8A8A;
+  color: black;
+
+}  
+
+.navBar .active{
+  text-decoration: underline;
+}
+
+.active{
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(37, 146, 110);
+}
+
+#logo{
+  width: 170px;
+  height: 110px;
+  margin-top: -28px;
+  position: relative;
+  left: 345px;
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Comments form </title>
+    <link rel="stylesheet" href="nav1.css">
+    <link rel="stylesheet" href="comments.css">
+    
+    
+</head>
+<body>
+    
+
+    <div class="navBar">
+        <a href="cw2.html">Home</a>
+        <a href="commentsnew.html" class="active"><u>Comments</u></a>
+        <a href="intex.html">Shop</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="sitemap.html">Site Map</a>
+        <a href="about.html">About us</a>
+        <a href="thumbnail.html">Gallery</a>
+        <img src="crnew.png"  id=logo alt="Logo image" >
+     </div><br><br><br>
+    
+    <h1><b><u> Comments Form </u></b></h1>
+    <br>
+    <fieldset>
+
+    <form action="mailto:nathankeyu@gmail.com" method="post" enctype="text/plain" >
+        <br>
+        <div class="ab"><br>
+            <label for="name" id="name">Your Name</label>
+            <br><br>
+            <input type="text" id="box2" placeholder="Enter your Name" required><br><br>
+        </div>
+
+        <div class="ab"><br>
+            <label for="email" id="email">Your Email</label>
+            <br><br>
+            <input type="email" id="box2" placeholder="Enter your Email" required><br><br>
+        </div>
+
+        <div class="ab"><br>
+            <label for="telephone" id="telephone">Your Phone Number</label>
+            <br><br>
+            <input type="tel" id="box2" placeholder="Enter your Phone Number" required><br><br>
+        </div>
+
+        <div class="pq">
+            <br>
+            <p>How satisfied were you with our website today? Choose from 0 to 10, where 0 is extremely dissatisfied and 10 is extremely satisfied.</p><br><br>
+            <label for="no" id="no"> &emsp;&emsp;&emsp;&emsp;0 &emsp;&emsp;&emsp; 1 &emsp;&emsp;&emsp; 2 &emsp;&emsp;&emsp; 3 &emsp;&emsp;&emsp; 4 &emsp;&emsp;&emsp; 5 &emsp;&emsp;&emsp; 6 &emsp;&emsp;&emsp; 7 &emsp;&emsp;&emsp; 8 &emsp;&emsp;&emsp; 9 &emsp;&emsp;&emsp; 10 </label><br>
+            
+            <div class="rating" >
+                &emsp;<input type="radio" id="star1" name="rating" value="1" required> &emsp;&emsp;
+                <label for="star1"></label>
+                <input type="radio" id="star2" name="rating" value="2" > &emsp;&emsp;
+                <label for="star2"></label>
+                <input type="radio" id="star3" name="rating" value="3" > &emsp;&emsp;
+                <label for="star3"></label>
+                <input type="radio" id="star4" name="rating" value="4" > &emsp;&emsp;
+                <label for="star4"></label>
+                <input type="radio" id="star5" name="rating" value="5" > &emsp;&emsp;
+                <label for="star5"></label>
+                <input type="radio" id="star6" name="rating" value="6" > &emsp;&emsp;
+                <label for="star6"></label>
+                <input type="radio" id="star7" name="rating" value="7" r> &emsp;&emsp;
+                <label for="star7"></label>
+                <input type="radio" id="star8" name="rating" value="8"> &emsp;&emsp;
+                <label for="star8"></label>
+                <input type="radio" id="star9" name="rating" value="9"> &emsp;&emsp;
+                <label for="star9"></label>
+                <input type="radio" id="star10" name="rating" value="10"> &emsp;&emsp;
+                <label for="star10"></label>
+                <input type="radio" id="star11" name="rating" value="11"> &emsp;&emsp;
+                <label for="star11"></label>&emsp;&emsp;&emsp;<br><br><br>
+            </div>
+        </div><br>
+        
+        <div class="ab">
+            <br>
+            <label for="feedback1" id="feedback1"> Please could you tell us your reasons for giving this rating? </label><br><br>
+            <textarea name="feedback1" id="box1" >
+            </textarea><br><br>
+        </div>
+        
+        <div class="ab">
+            <br>
+            <label for="options" id="options"> How did you want to complete this task today? (optional) </label><br><br>
+            <select name="options" id="box2" >
+
+                <option value="" disabled selected hidden> --Please Select-- </option>
+                <option value="phone"> Phone </option>
+                <option value="website"> Website </option>
+                <option value="webchat"> Webchat </option>
+                <option value="socialmedia"> Socialmedia </option>
+                <option value="email"> Email </option>
+
+            </select><br><br>
+        </div>
+        
+    
+        <br>
+</fieldset>
+       <br>
+        
+                <button type="submit" id="submit" class="btn" onclick="openPopup()"> Submit </button>
+                <button type="reset" id="reset">Clear</button>
+
+                <div class="popup" id="popup">
+                    <img src="tick3-removebg-preview.png" alt="tick">
+                    <h2>Thank You!</h2>
+                    <p>Thank you for taking the time to give us your feedback on your experience today.</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+    
+</form>
+     
+    <script src="comments.js"></script>
+
+    <br><br><br>
+    
+    <a href="pageeditorkeyu.html" id="pageeditor">Page ediitor</a>
+    <br><br>
+    
+</body>
+</html>

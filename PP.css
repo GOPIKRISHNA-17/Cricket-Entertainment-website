@@ -1,0 +1,251 @@
+
+
+/*BACKGROUND ANIMATION CSS*/
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-20deg, rgb(204, 34, 0) 50%, #000000 50%);
+  bottom:0;
+  left:-100%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
+
+/*TEXt ANIMATION*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 400%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+/*logo image */
+
+.image-container{
+  
+  text-align: center;
+ 
+  animation-duration: 1.4s;
+    animation-name: slidein;
+    margin-right: 500px;
+    margin-top: 55px;
+    
+}
+
+.image-container img{
+  width: 200px;
+  height: 50px;}
+
+
+
+  .image-container2{
+  text-align: center;
+ 
+  animation-duration: 1.3s;
+    animation-name: slidein;
+    margin-right: 350px;
+    margin-top: -85px;}
+
+    .image-container2 img{
+      float: right;
+  width: 250px;
+  height: 100px;}
+
+
+/*PAGE  SPLASH*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+
+
+.main-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.splash-screen {
+  
+
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+
+
+
+  
+
+.parasplash {
+  color: rgb(233, 252, 255);
+  font-weight: 700;
+  text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    animation-duration: 1.7s;
+    animation-name: slidein;
+    
+    
+}
+
+
+.splash-screen h1 {  
+  border: 3px solid rgb(232, 54, 19) ;
+  font-family: 'Atomic Age';
+  color:  rgba(0, 0, 0, 0.912);
+  font-size: 56px;
+  margin-bottom: 20px;
+ 
+}
+    
+ .h2{
+  font-family: 'Electrolize';
+  color: rgba(0, 56, 57, 0.956);
+  margin-top: -10px;
+  animation-duration: 1.2s;
+  animation-name: slidein;
+  text-align: center;
+
+}
+.h3{
+  text-decoration: underline;
+  font-family: 'Milonga';  
+  animation-duration: 1.4s;
+  animation-name: slidein;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+.splash-screen ul {
+  
+  list-style: none;
+  padding: 0;
+}
+
+.splash-screen li {
+  font-family: 'Galada';
+  
+  font-size: 24px;
+  
+}
+
+.main-page {
+  display: none;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  padding: 0px;
+}
+
+
+
+/*PAGE editor button*/
+
+.btn {
+  margin-bottom: -20px;
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #e4d013c0;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.btn:active {
+  scale: 0.92;
+}
+
+.btn:hover {
+  background: rgb(2,29,78);
+  background: linear-gradient(270deg, rgba(204, 131, 21, 0.93) 0%, rgba(209, 55, 4, 0.925) 60%);
+  color: rgb(4, 4, 38);
+}

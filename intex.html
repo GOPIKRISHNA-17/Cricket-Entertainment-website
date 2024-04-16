@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible " content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING CART</title>
+
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  
+</head>
+<body>
+
+    <!--navbar-->
+    <header>
+            <!--nav--->
+            <div class="nav container">
+                <!--logo-->
+                
+                
+                    
+
+                  <div class="navBar">
+                    
+               
+                    <a href="cw2.html" >Home</a>
+                    <a href="commentsnew.html">Comments</a>
+                    <a href="intex.html" class="active" >Shop</a>
+                    <a href="quiz.html">Quiz</a>
+                    <a href="sitemap.html">Site Map</a>
+                    <a href="about.html" >About us</a>
+                    <a href="thumbnail.html" >Gallery</a>
+                   
+                    <img src="image/crlogo.png"  id=logo >
+
+                    
+                </div>
+
+                
+
+               
+                    <!--cart icon--->
+                    <i class='bx bxs-shopping-bag' id="cart-icon" data-quantitiy="0"></i>
+
+                    <!--cart-->
+                    <div class="cart">
+                        <h2 class="cart-title">YOUR CART</h2>
+                        <!--content-->
+                        <div class="cart-content">
+                            
+
+
+                        </div>
+
+                        <!--total-->
+                        <div class="total">
+                            <div class="total-title">total</div>
+                            <div class="total-price">$0</div>
+
+                        </div>
+                        <!--buy button-->
+                        <a href="checkoutpage.html">
+                        <button  type="submit" class="btn-buy"  id="checkout" disabled >Buynow</button></a>
+                        <!--cart closse-->
+                        <i class='bx bx-x' id="close-cart"></i>
+                         
+                        <button id="resetButton" class="resetButton">Cancel </button>
+                        <a href="pageeditornidwin.html">
+                        <button id="pageeditor" class="pageeditor">Page editor</button></a>
+
+                    </div>
+
+
+
+            </div>
+
+            
+    </header>
+
+
+
+
+    <!--products-->
+    <section class="shop container">
+        <h2 class="section-title">OUR PRODUCTS</h2>
+        
+    <!--shop contents-->
+    <div class="shop-content">
+        <!--box1-->
+        <div class="product-box">
+            <img src="image/1.png" alt="" class="product-img">
+            <h2 class="product-title">TON BAT</h2>
+            <span class="price">$250</span>
+               <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+          <!--box2-->
+          <div class="product-box">
+            <img src="image/2.png" alt="" class="product-img">
+            <h2 class="product-title">LEATHER BALL</h2>
+            <span class="price">$60</span>
+               <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+          <!--box3-->
+          <div class="product-box">
+            <img src="image/3.png" alt="" class="product-img">
+            <h2 class="product-title">LEG PAD</h2>
+            <span class="price">$80</span>
+               <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+          <!--box4-->
+          <div class="product-box">
+            <img src="image/4.png" alt="" class="product-img">
+            <h2 class="product-title">HELMET</h2>
+            <span class="price">$60</span>
+               <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+          <!--box5-->
+          <div class="product-box">
+            <img src="image/5.png" alt="" class="product-img">
+            <h2 class="product-title">GLOVES</h2>
+            <span class="price">$30</span>
+               <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+          <!--box6-->
+          <div class="product-box">
+            <img src="image/6.png" alt="" class="product-img">
+            <h2 class="product-title">SHOE</h2>
+            <span class="price">$200</span>
+               <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+
+          <!--box7-->
+          <div class="product-box">
+            <img src="image/7.png" alt="" class="product-img">
+            <h2 class="product-title">MRF CRICKET BAG</h2>
+            <span class="price">$160</span>
+               <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          
+        <!--box8-->
+        <div class="product-box">
+            <img src="image/8.png" alt="" class="product-img">
+            <h2 class="product-title">CRICKET CAP</h2>
+            <span class="price">$15</span>
+               <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+    </div>
+  
+
+
+    </section>
+
+    <!--link to js-->
+    <script defer src="cart.js"></script>
+
+    
+
+    <footer>
+
+
+            <form action="/"  method="get" name="myForm" id="myForm">
+                <!-- Form fields and elements go here -->
+                <div class="detailsstu">
+                    <table>
+                        <tr>
+                            <td><label for="name"> <b>Full name : </b> </label><br><br></td>
+                            <td><input type="text" id="name" name="name" style="color:grey" placeholder="Name"  required  ><br><br></td>
+                                                
+                            <td><label for="email"><b> E-mail : </b></label><br><br></td>
+                            <td><input type="email" id="email" name="email" style="color:grey" placeholder="Email"  required ><br><br></td>
+                            
+
+
+                       <td><label for="expressdelivery"><b> Fast-delivery :  </b></label><br><br></td>
+                            <td><input type="checkbox" id="expressdelivery" name="expressdelivery" style="color:grey"  ><br><br></td>  
+
+
+                            
+                       
+                                <br>
+                            
+                                              
+                        </tr>
+                        
+                    </table>
+
+                </div>
+              </form>
+
+    </footer>
+</body>
+</html>

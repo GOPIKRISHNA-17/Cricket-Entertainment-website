@@ -1,0 +1,27 @@
+ .page{
+            text-align: center;
+            background-color: pink;
+        }
+ h1{
+            background-color: pink;
+            text-align: center;
+        }
+.btn button{
+            padding: 10px;
+            display: inline-block;
+            margin-left: 200px ;
+            border-radius: 5px;
+            background-color: palegoldenrod;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-decoration: none;
+            
+           
+            
+        }
+#btn3{
+            padding: 1%;
+            text-align: center;
+            margin-left: 50%;
+        }
+        

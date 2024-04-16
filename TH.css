@@ -1,0 +1,216 @@
+body {
+		  font-family: Arial, sans-serif;
+		  margin: 0;
+		  padding: 0;
+		  background-color:rgb(20, 15, 73);
+		  color:#fff;
+		}
+		/*navbar css*/
+		.navBar{
+			height:50px;
+			background-color:rgb(57, 54, 52);
+			position:fixed;
+			top:0;
+			left:0;
+			overflow:hidden;
+			width:100%;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			
+		}
+		
+		.navBar a{
+			float: left;
+			text-decoration:none;
+			color:white;
+			display:block;
+			padding:14px 16px;
+			
+		}
+		
+		.navBar a:hover{
+		  background-color: #FF8A8A;
+		  color: black;
+		  
+		}  
+		.navBar .active{
+			text-decoration: underline;
+		}
+		 #logo{
+			position: relative;
+			left: 250px;
+		 }
+		
+		/* Color schemes */
+		.color-scheme-1 {
+		  background-color:rgb(215, 23, 23);
+		  color:#fff;
+		}
+		.color-scheme-2 {
+		  background-color: #24dda2;
+		  color: #fff;
+		}
+		.color-scheme-3 {
+		  background-color: #ffcc00;
+		  color: #333;
+		}
+		/* Add the color scheme classes to style the description div in the middle-gallery */
+		.color-scheme-1 .new-div-content {
+			background-color: rgb(108, 108, 108);
+			color:black;
+		}
+
+		.color-scheme-2 .new-div-content {
+			background-color: #b1afaf;
+			color: black;
+		}
+
+		.color-scheme-3 .new-div-content {
+			background-color: #e7e0c3;
+			color: black;
+		}
+
+		/*color buttons*/
+		.button1 {
+		  background-color:rgb(215, 23, 23);
+		  padding: 10px;
+		}
+		.button2 {
+		  background-color: #24dda2;
+		  padding: 10px;
+		}
+		.button3 {
+		  background-color: #ffcc00;
+		  padding: 10px;
+		  
+		}
+		/*font buttons*/
+		.button4 {
+            background-color: transparent;
+			color:white; 
+            font-size: 14px;
+			border: none;
+        }
+
+        .button5 {
+            background-color: transparent;
+			color:white;
+            font-size: 18px; 
+			border: none;
+        }
+
+        .button6 {
+            background-color: transparent; 
+			color:white;
+            font-size: 24px;
+			border: none;
+        }
+		/*color*/	 
+		.contain {
+			position: absolute;
+			top: 0;
+			right:15px;
+			margin-top:60px;
+		}
+		/*font*/
+		.contain2 {
+			position: absolute;
+			right:70px;
+			margin-top:60px;
+			top:15px;
+		}
+		/* student4*/
+		.contain3 {
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin-top:60px;
+		}
+		/*heading*/
+		.head{
+			text-align:center;
+			font-size:22px;
+			font-weight: bold;
+			text-decoration:underline;
+			margin-top:140px;
+		}
+		
+		/*top div (not gallery)*/
+		.container {
+		  display: flex;
+		  height:300px;
+		  flex-direction: column;
+		  justify-content: space-between;
+		}
+		/*description of images*/	
+		.description {
+		  margin-top: 20px;
+		}
+			
+		.top-gallery,
+		.bottom-gallery {
+		  display: flex;
+		  justify-content: space-evenly;
+		  align-items: center;
+		  padding: 5px;
+		  text-align:center;
+		}
+			
+		.middle-gallery {
+		  display: flex;
+		  align-items: center;
+		  padding: 10px;
+		  height: 300px;
+		  width:1200px;
+		  margin:auto;
+		  border: 1px solid white;
+		  justify-content: space-between;
+		  background-color: #333;
+		}
+		.new-div-content {
+			padding: 10px;
+			height:280px;
+			width:700px;
+		}
+		/*small divs in top and bottom gallery*/
+		.gallery-item {
+		  margin: 5px;
+		  cursor: pointer;
+		}
+		/*top bottom gallery images*/
+		.gallery-item img {
+		  max-width: 200px;
+		  height:200px;
+		}
+		
+		.gallery-item:hover {
+		  opacity: 0.8;
+		}
+		/*middle div image*/
+		.selected-image {
+		  max-width: 400px;
+		  max-height: 400px;
+		}
+		.description.highlighted {
+            background-color: blue; /* Highlight color when description is selected */
+            color: #fff; /* Text color when description is selected */
+        }
+		.btn button{
+			padding: 10px;
+			display: inline-block;
+			margin-left: 200px ;
+			border-radius: 5px;
+			background-color: palegoldenrod;
+			font-family:'Times New Roman', Times, serif;
+			font-weight: bold;
+			text-decoration: none;
+			
+		   
+			
+		}
+		#btn3{
+			padding: 1%;
+			text-align: center;
+			margin-left: 50%;
+		}

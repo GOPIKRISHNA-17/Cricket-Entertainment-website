@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Gallery</title>
+	<link href="TH.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="navBar">
+    
+        <a href="cw2.html" >Home</a>
+        <a href="commentsnew.html">Comments</a>
+        <a href="intex.html">Shop</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="SiteMap.html">Site Map</a>
+	    <a href="about.html" >About us</a>
+		<a href="thumbnail.html" class="active">Gallery</a>
+        <img src="crnew.png"  id="logo" alt="Logo image" >
+	</div>
+    <div class="font">
+		<p class="contain3">STUDENT_4</p>
+		
+		<p class="head">CHAMPONS OF WORLDCUP AND IPL<BR>1986-2022</p>
+		<div class="contain">
+			<button onclick="changeColorScheme(1)" class="button1"></button><br>
+			<button onclick="changeColorScheme(2)" class="button2"></button><br>
+			<button onclick="changeColorScheme(3)" class="button3"></button><br>
+		</div>
+		  
+		<div class="contain2">
+			<button onclick="changeFontSize(14)" class="button4">A</button>
+			<button onclick="changeFontSize(18)" class="button5">A</button>
+			<button onclick="changeFontSize(24)" class="button6">A</button>
+		</div>
+	</div>
+	<div class="top-gallery">
+		<div class="gallery-item" onclick="displayImage('1996.jpeg', '1996','The 1996 Cricket World Cup was won by Sri Lanka. The tournament, jointly hosted by India, Pakistan, and Sri Lanka, witnessed a remarkable display of talent from the Sri Lankan team. Led by Arjuna Ranatunga, they showcased an aggressive style of cricket, both with bat and ball. The final match against Australia was a memorable one, where Sri Lanka emerged victorious by 7 wickets, thanks to the brilliant batting of Aravinda de Silva and the impressive bowling performance of Chaminda Vaas and Muttiah Muralitharan.')">
+			<div class="description">2022<br>(SRILANKA)</div>
+			<img src="1996.jpeg" alt="Image 1" class="gallery-item img">
+		</div>
+		<div class="gallery-item" onclick="displayImage('2011.jpeg', '2011',' The 2011 Cricket World Cup was won by India. The tournament, held in India, Sri Lanka, and Bangladesh, was a momentous occasion for Indian cricket. Under the leadership of MS Dhoni, the team displayed exceptional performances throughout the event. The final match against Sri Lanka was a nerve-wracking encounter, where India chased down the target with six wickets in hand, thanks to the heroic innings of Gautam Gambhir and Dhoni himself. The victory marked India second World Cup triumph and ignited celebrations across the nation.')">
+			<div class="description">2012<br>(INDIA)</div>
+			<img src="2011.jpeg" alt="Image 2" class="gallery-item img">
+		</div>
+		<div class="gallery-item" onclick="displayImage('2014.jpeg', '2014','The 2014 ICC World Twenty20 was won by Sri Lanka. The tournament, hosted in Bangladesh, witnessed an impressive display of cricketing prowess by the Sri Lankan team. Led by Lasith Malinga, they showcased exceptional skills in both batting and bowling. In the final match against India, Sri Lanka bowlers put up a strong performance, restricting India batting lineup. With a composed innings by Kumar Sangakkara, Sri Lanka chased down the target and secured their first ICC World Twenty20 title.')">
+			<div class="description">2014<br>(SRILANKA)</div>
+			<img src="2014.jpEg" alt="Image 3" class="gallery-item img">
+		</div>
+		<div class="gallery-item" onclick="displayImage('2016.jpeg', '2016','The 2016 ICC World Twenty20 was won by the West Indies. The tournament, held in India, witnessed a thrilling display of T20 cricket from the West Indian team. Led by Darren Sammy, they showed incredible power-hitting and flair. In the final match against England, West Indies needed 19 runs from the last over. Carlos Brathwaite remarkable four consecutive sixes secured a stunning victory, making them the first team to win the ICC World Twenty20 title twice and creating unforgettable moments in cricket history.')">
+			<div class="description">2016<br>(WEST INDIES)</div>
+			<img src="2016.jpeg" alt="Image 4" class="gallery-item img">
+		</div>
+		<div class="gallery-item" onclick="displayImage('2021.jpeg', '2021','The 2021 ICC World Test Championship was won by New Zealand. In a thrilling final held at the Ageas Bowl in Southampton, England, New Zealand displayed exceptional teamwork and determination against India. Kane Williamson crucial century and Kyle Jamieson outstanding bowling performance set the stage for their historic victory. The Kiwis showcased their resilience and dominance throughout the tournament, proving themselves as worthy champions in the traditional format of the game, cementing their position as one of the top Test teams in the world')">
+			<div class="description">2021<br>(NEW ZELAND)</div>
+			<img src="2021.jpeg" alt="Image 5" class="gallery-item img">
+		</div>
+	</div>
+		
+	<div class="middle-gallery">
+		<img id="selectedImage" class="selected-image" src="WORLD.jpeg" alt="Selected Image">
+		<div id="selectedImageDescription" class="description"></div>
+		<div class="new-div-content">
+			
+			<p>
+				IPL (Indian Premier League) and World Cup are two premier cricket tournaments captivating fans worldwide. IPL, an annual Twenty20 league in India, features top-notch international players representing various franchises, creating thrilling cricketing spectacles. In contrast, the Cricket World Cup is a quadrennial event where national teams compete for global supremacy. Both events showcase extraordinary talent, fierce rivalries, and unforgettable moments, fostering a sense of unity and excitement among cricket enthusiasts. IPL's franchise model emphasizes entertainment, while the World Cup epitomizes national pride and cricketing excellence. Together, they epitomize the sport's global appeal, leaving an indelible mark on the cricketing landscape.
+				<br>The event showcases awe-inspiring displays of skill, teamwork, and sportsmanship, captivating billions of spectators worldwide. Host countries invest significant resources in state-of-the-art stadiums and infrastructure to provide a memorable experience for fans and participants alike.
+			</p>
+		</div>
+	</div>
+		
+	
+	<div class="bottom-gallery">
+		<div class="gallery-item" onclick="displayImage('I2011.jpeg', '2011','The 2011 IPL champions were Chennai Super Kings. Led by the charismatic captain MS Dhoni, CSK clinched their maiden IPL title in a thrilling final against Royal Challengers Bangalore. The team displayed exceptional consistency and teamwork throughout the tournament, with notable performances from players like Michael Hussey and Murali Vijay. CSK strong batting lineup, combined with Dhoni astute captaincy, proved instrumental in their success, making them one of the most dominant franchises in the history of the IPL.')">
+			<img src="I2011.jpeg" alt="Image 6" class="gallery-item img">
+			<div class="description">2011<br>(CSK)</div>
+		</div>
+		<div class="gallery-item" onclick="displayImage('I2012.jpg', '2012','The 2012 IPL champions were Kolkata Knight Riders (KKR). Captained by Gautam Gambhir and coached by Trevor Bayliss, KKR achieved their first IPL title by defeating Chennai Super Kings in a dramatic final. The team showcased excellent all-around performances, with Sunil Narine spin bowling proving particularly influential. KKR batting lineup, led by Gambhir and complemented by the likes of Jacques Kallis and Yusuf Pathan, displayed their mettle, making them a formidable force and earning them a well-deserved victory in the tournament.')">
+			<img src="I2012.jpg" alt="Image 7" class="gallery-item img">
+			<div class="description">2012<br>(KKR)</div>
+		</div>
+		<div class="gallery-item" onclick="displayImage('I2016.jpeg', '2016','The 2016 IPL champions were Sunrisers Hyderabad (SRH). Under the aggressive captaincy of David Warner, SRH secured their first IPL title by defeating Royal Challengers Bangalore in a thrilling final. Their success was fueled by a powerful batting lineup, including Warner himself, and a formidable bowling attack, led by Bhuvneshwar Kumar and Mustafizur Rahman. SRH displayed exceptional performances throughout the tournament, showcasing their ability to handle pressure and execute their game plan effectively, earning them a memorable victory in the IPL')">
+			<img src="I2016.jpeg" alt="Image 8" class="gallery-item img">
+			<div class="description">2013<br>(SRH)</div>
+		</div>
+		<div class="gallery-item" onclick="displayImage('I2017.jpeg', '2017','The 2017 IPL champions were Mumbai Indians (MI). Led by Rohit Sharma, MI secured their third IPL title by defeating Rising Pune Supergiant in a nail-biting final. Their victory was shaped by brilliant individual performances, like Kieron Pollard crucial knock and Jasprit Bumrah exceptional bowling in the death overs. Throughout the tournament, MI displayed a balanced and well-coordinated team effort, making them the most successful franchise in IPL history at the time, and solidifying their position as a dominant force in T20 cricket.')">
+			<img src="I2017.jpeg" alt="Image 9" class="gallery-item img">
+			<div class="description">2017<br>(MI)</div>
+		</div>
+		<div class="gallery-item" onclick="displayImage('I2022.jpeg', '2022','The Gujarat Titans (GT) were crowned champions of the TATA Indian Premier League (IPL) 2022 after defeating the Rajasthan Royals (RR) by 7 wickets on Sunday at the Narendra Modi Stadium in Ahmedabad.Hardik Pandya led from the front with an all-round performance which powered Gujarat Titans to their maiden IPL title after a clinical 7-wicket victory.  Chasing 131 to win the final, GT lost Wriddhiman Saha’s wicket early after Prasidh Krishna went through the opener’s defence and knocked the stumps. Trent Boult added pressure by bowling a magnificent maiden over with the new ball. ')">
+			<img src="I2022.jpeg" alt="Image 10" class="gallery-item img">
+			<div class="description">2022<br>(GT)</div>
+		</div>
+		
+		 
+	</div>
+
+	
+	</div>
+	<div class="btn">	
+		
+		<button id="btn3"><a href="pageeditorgopi.html">Page Editor</a></button>
+  </div>
+	<script src="TH.js"></script>
+</body>
+</html>
